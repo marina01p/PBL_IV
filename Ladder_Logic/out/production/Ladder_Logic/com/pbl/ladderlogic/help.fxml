@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<ScrollPane fx:id="scrollPane" stylesheets="@styles.css" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="540.0" prefWidth="584.0">
+         <children>
+            <Label fx:id="font1" alignment="CENTER" layoutX="14.0" layoutY="14.0" prefHeight="38.0" prefWidth="545.0" text="LADDER LOGIC for PLCs">
+               <font>
+                  <Font size="27.0" />
+               </font>
+            </Label>
+            <VBox layoutX="25.0" layoutY="67.0" prefHeight="108.0" prefWidth="538.0">
+               <children>
+                  <Label fx:id="text1" prefHeight="26.0" prefWidth="538.0" text="Ladder Diagram is a programming language that depicts  the program in terms of a graphical" />
+                  <Label fx:id="text2" layoutX="10.0" layoutY="10.0" prefHeight="26.0" prefWidth="538.0" text="diagram which is taken from the circuit diagrams of the hardware of relay logic. The basic use of this" />
+                  <Label fx:id="text3" layoutX="10.0" layoutY="36.0" prefHeight="26.0" prefWidth="538.0" text="language is the development of the software associated with the programmable logic controllers" />
+                  <Label fx:id="text4" layoutX="10.0" layoutY="63.0" prefHeight="26.0" prefWidth="538.0" text="(PLCs) that are a part of applications of industrial control." />
+               </children>
+            </VBox>
+            <VBox layoutX="23.0" layoutY="255.0" prefHeight="249.0" prefWidth="538.0">
+               <children>
+                  <Label fx:id="text5" prefHeight="26.0" prefWidth="538.0" text="There are 4 types of variables:" />
+                  <Label fx:id="text6" layoutX="10.0" layoutY="10.0" prefHeight="26.0" prefWidth="538.0" text="- openContact                                            - activeCoil" />
+                  <Label fx:id="text7" layoutX="10.0" layoutY="36.0" prefHeight="26.0" prefWidth="538.0" text="- closedContact                                          - inactiveCoil." />
+                  <Label fx:id="text8" layoutX="10.0" layoutY="63.0" prefHeight="26.0" prefWidth="538.0" />
+                  <Label fx:id="text9" layoutX="10.0" layoutY="89.0" prefHeight="26.0" prefWidth="538.0" text="The variables of types openContact or closedContact should be called with an I or M uppercase and" />
+                  <Label fx:id="text10" layoutX="10.0" layoutY="116.0" prefHeight="26.0" prefWidth="538.0" text="and a number, that represent a digit." />
+                  <Label fx:id="text11" layoutX="10.0" layoutY="142.0" prefHeight="26.0" prefWidth="538.0" text="The variables of types inactiveCoil or activeCoil have to be called with an &quot;M&quot; or &quot;Q&quot; and a number." />
+                  <Label fx:id="text12" layoutX="10.0" layoutY="168.0" prefHeight="26.0" prefWidth="538.0" text="All closed and open contacts, as inputs, must have some values. Active and inactive coils, as outputs" />
+                  <Label fx:id="text13" layoutX="10.0" layoutY="195.0" prefHeight="26.0" prefWidth="538.0" text="and memory should not have values. Values are considered in a form of bits (0 or 1)." />
+               </children>
+            </VBox>
+            <Label fx:id="font2" alignment="CENTER" layoutX="24.0" layoutY="192.0" prefHeight="43.0" prefWidth="522.0" text="PROGRAM LOGIC">
+               <font>
+                  <Font size="27.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
+  </content>
+</ScrollPane>

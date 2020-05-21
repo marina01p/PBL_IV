@@ -1,0 +1,244 @@
+.root {
+    -fx-background-color: #f0f0f5;
+}
+
+.menu-bar {
+    -fx-background-color: #a5a5c0;
+        -fx-border-width: 2.0;
+}
+
+.menu-bar .label {
+    -fx-font-size: 15.0 pt;
+    -fx-font-family: "Tahoma Web Safe Font";
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 2.0px;
+}
+
+.menu-bar .menu-button:hover, .menu-bar .menu-button:focused, .menu-bar .menu-button:showing {
+    -fx-background: #666699;
+    -fx-opacity: 0.7;
+    -fx-text-fill: black;
+}
+
+.menu-item {
+    -fx-padding: 0.0em 0.0em 0.0em 0.0em;
+    -fx-text-fill: black;
+    -fx-background: #e0e0eb;
+}
+
+.menu-item .label{
+    -fx-font-family: "Arial";
+    -fx-font-size: 13.0 pt;
+    -fx-text-fill: black;
+}
+
+.menu-item .label:hover{
+    -fx-font-size: 14.0 pt;
+    -fx-background: black ;
+    -fx-text-fill: white;
+}
+
+.context-menu {
+    -fx-background-color: #f0f0f5;
+    -fx-border-width: 0.2px;
+    -fx-border-color: #666699;
+    -fx-background-insets: 0.0, 1.0, 2.0;
+    -fx-background-radius: 0.0 6.0 6.0 6.0, 0.0 5.0 5.0 5.0, 0.0 4.0 4.0 4.0;
+    -fx-padding: 0.333333em 0.083333em 0.666667em 0.083333em;
+    -fx-opacity: 0.8;
+}
+
+.text-area {
+    -fx-font-family: Consolas;
+    -fx-font-size: 25;
+    -fx-text-fill: #000000;
+}
+
+.text-area .content {
+    -fx-background-color: white;
+}
+
+#outputext {
+    -fx-font-size: 25.0 pt;
+    -fx-font-family: "Tahoma Web Safe Font";
+    -fx-text-fill: #33334d;
+    -fx-padding: 2.0px;
+}
+
+#enterIvalues{
+    -fx-font-size: 25.0 pt;
+    -fx-font-family: "Tahoma Web Safe Font";
+    -fx-text-fill: #33334d;
+    -fx-padding: 2.0px;
+}
+
+#contact {
+    -fx-background-color:#a3a3c2, linear-gradient(#a3a3c2, #a3a3c2),linear-gradient(#a3a3c2, #a3a3c2), linear-gradient(#b3b3cc, #b3b3cc);
+    -fx-background-insets: 0,1,2,3;
+    -fx-background-radius: 3,2,2,2;
+    -fx-padding: 12 30 12 30;
+    -fx-font-weight: bold;
+    -fx-font-family: "Tahoma Web Safe Font";
+    -fx-text-fill: white;
+    -fx-font-size: 15px;}
+
+#contact Text {-fx-effect: dropshadow( one-pass-box , rgba(0,0,0,0.8) , 0, 0.0 , 0 , 1);}
+
+#coil {
+    -fx-background-color:#a3a3c2, linear-gradient(#a3a3c2, #a3a3c2),linear-gradient(#a3a3c2, #a3a3c2), linear-gradient(#b3b3cc, #b3b3cc);
+    -fx-background-insets: 0,1,2,3;
+    -fx-background-radius: 3,2,2,2;
+    -fx-padding: 12 30 12 30;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-family: "Tahoma Web Safe Font";
+    -fx-font-size: 15px;}
+    
+#coil Text {-fx-effect: dropshadow( one-pass-box , rgba(0,0,0,0.8) , 0, 0.0 , 0 , 1);}
+
+#open {
+    -fx-background-color:#e0e0eb, linear-gradient(#e0e0eb, #e0e0eb),linear-gradient(#e0e0eb, #e0e0eb), linear-gradient(#d1d1e0, #d1d1e0);
+    -fx-background-insets: 0,1,2,3;
+    -fx-background-radius: 3,2,2,2;
+    -fx-padding: 12 30 12 30;
+    -fx-text-fill: black;
+    -fx-font-family: "Tahoma Web Safe Font";
+    -fx-font-size: 15px;}
+
+#open: hover {-fx-background-color:#d1d1e0;}
+#open Text {-fx-effect: dropshadow( one-pass-box , rgba(0,0,0,0.8) , 0, 0.0 , 0 , 1);}
+
+#closed {
+    -fx-background-color:#e0e0eb, linear-gradient(#e0e0eb, #e0e0eb),linear-gradient(#e0e0eb, #e0e0eb), linear-gradient(#d1d1e0, #d1d1e0);
+    -fx-background-insets: 0,1,2,3;
+    -fx-background-radius: 3,2,2,2;
+    -fx-padding: 12 30 12 30;
+    -fx-text-fill: black;
+    -fx-font-family: "Tahoma Web Safe Font";
+    -fx-font-size: 15px;
+}
+#closed: hover {-fx-background-color:#d1d1e0;}
+#closed Text {-fx-effect: dropshadow( one-pass-box , rgba(0,0,0,0.8) , 0, 0.0 , 0 , 1);}
+
+#I {
+    -fx-background-color:#e0e0eb, linear-gradient(#e0e0eb, #e0e0eb),linear-gradient(#e0e0eb, #e0e0eb), linear-gradient(#d1d1e0, #d1d1e0);
+    -fx-background-insets: 0,1,2,3;
+    -fx-background-radius: 3,2,2,2;
+    -fx-text-fill: black;
+    -fx-font-family: "Tahoma Web Safe Font";
+    -fx-font-size: 15px; }
+
+#I: hover {-fx-background-color:#d1d1e0;}
+#I Text {-fx-effect: dropshadow( one-pass-box , rgba(0,0,0,0.8) , 0, 0.0 , 0 , 1);}
+
+#M {
+    -fx-background-color:#e0e0eb, linear-gradient(#e0e0eb, #e0e0eb),linear-gradient(#e0e0eb, #e0e0eb), linear-gradient(#d1d1e0, #d1d1e0);
+    -fx-background-insets: 0,1,2,3;
+    -fx-background-radius: 3,2,2,2;
+    -fx-text-fill: black;
+    -fx-font-family: "Tahoma Web Safe Font";
+    -fx-font-size: 15px;}
+
+#M1: hover {-fx-background-color:#d1d1e0;}
+#M Text {-fx-effect: dropshadow( one-pass-box , rgba(0,0,0,0.8) , 0, 0.0 , 0 , 1);}
+
+#active {
+    -fx-background-color:#e0e0eb, linear-gradient(#e0e0eb, #e0e0eb),linear-gradient(#e0e0eb, #e0e0eb), linear-gradient(#d1d1e0, #d1d1e0);
+    -fx-background-insets: 0,1,2,3;
+    -fx-background-radius: 3,2,2,2;
+    -fx-padding: 12 30 12 30;
+    -fx-text-fill: black;
+    -fx-font-family: "Tahoma Web Safe Font";
+    -fx-font-size: 15px;}
+
+#active: hover {-fx-background-color:#d1d1e0;}
+#active Text {-fx-effect: dropshadow( one-pass-box , rgba(0,0,0,0.8) , 0, 0.0 , 0 , 1);}
+
+#inactive {
+    -fx-background-color:#e0e0eb, linear-gradient(#e0e0eb, #e0e0eb),linear-gradient(#e0e0eb, #e0e0eb), linear-gradient(#d1d1e0, #d1d1e0);
+    -fx-background-insets: 0,1,2,3;
+    -fx-background-radius: 3,2,2,2;
+    -fx-padding: 12 30 12 30;
+    -fx-text-fill: black;
+    -fx-font-family: "Tahoma Web Safe Font";
+    -fx-font-size: 15px;
+}
+
+#inactive: hover {-fx-background-color:#d1d1e0;}
+#inactive Text {-fx-effect: dropshadow( one-pass-box , rgba(0,0,0,0.8) , 0, 0.0 , 0 , 1);}
+
+#Q {
+    -fx-background-color:#e0e0eb, linear-gradient(#e0e0eb, #e0e0eb),linear-gradient(#e0e0eb, #e0e0eb), linear-gradient(#d1d1e0, #d1d1e0);
+    -fx-background-insets: 0,1,2,3;
+    -fx-background-radius: 3,2,2,2;
+    -fx-text-fill: black;
+    -fx-font-family: "Tahoma Web Safe Font";
+    -fx-font-size: 15px;}
+
+#Q: hover {-fx-background-color:#d1d1e0;}
+#Q Text {-fx-effect: dropshadow( one-pass-box , rgba(0,0,0,0.8) , 0, 0.0 , 0 , 1);}
+
+#M1 {
+    -fx-background-color:#e0e0eb, linear-gradient(#e0e0eb, #e0e0eb),linear-gradient(#e0e0eb, #e0e0eb), linear-gradient(#d1d1e0, #d1d1e0);
+    -fx-background-insets: 0,1,2,3;
+    -fx-background-radius: 3,2,2,2;
+    -fx-text-fill: black;
+    -fx-font-family: "Tahoma Web Safe Font";
+    -fx-font-size: 15px;}
+
+#M1: hover {-fx-background-color:#d1d1e0;}
+#M1 Text {-fx-effect: dropshadow( one-pass-box , rgba(0,0,0,0.8) , 0, 0.0 , 0 , 1);}
+
+#and {
+    -fx-background-color:#e0e0eb, linear-gradient(#e0e0eb, #e0e0eb),linear-gradient(#e0e0eb, #e0e0eb), linear-gradient(#d1d1e0, #d1d1e0);
+    -fx-background-insets: 0,1,2,3;
+    -fx-background-radius: 3,2,2,2;
+    -fx-text-fill: black;
+    -fx-font-family: "Tahoma Web Safe Font";
+    -fx-font-size: 15px;}
+
+#and: hover {-fx-background-color:#d1d1e0;}
+#and Text {-fx-effect: dropshadow( one-pass-box , rgba(0,0,0,0.8) , 0, 0.0 , 0 , 1);}
+
+#or {
+    -fx-background-color:#e0e0eb, linear-gradient(#e0e0eb, #e0e0eb),linear-gradient(#e0e0eb, #e0e0eb), linear-gradient(#d1d1e0, #d1d1e0);
+    -fx-background-insets: 0,1,2,3;
+    -fx-background-radius: 3,2,2,2;
+    -fx-text-fill: black;
+    -fx-font-family: "Tahoma Web Safe Font";
+    -fx-font-size: 15px;}
+
+#or: hover {-fx-background-color:#d1d1e0;}
+#or Text {-fx-effect: dropshadow( one-pass-box , rgba(0,0,0,0.8) , 0, 0.0 , 0 , 1);}
+
+#end {
+    -fx-background-color:#e0e0eb, linear-gradient(#e0e0eb, #e0e0eb),linear-gradient(#e0e0eb, #e0e0eb), linear-gradient(#d1d1e0, #d1d1e0);
+    -fx-background-insets: 0,1,2,3;
+    -fx-background-radius: 3,2,2,2;
+    -fx-text-fill: black;
+    -fx-font-family: "Tahoma Web Safe Font";
+    -fx-font-size: 15px;}
+
+#end: hover {-fx-background-color:#d1d1e0;}
+#end Text {-fx-effect: dropshadow( one-pass-box , rgba(0,0,0,0.8) , 0, 0.0 , 0 , 1);}
+
+#scrollPane {
+    -fx-background-color: #f0f0f5;
+}
+
+#font1 {-fx-font-family: "Tahoma Web Safe Font";}
+#font2 {-fx-font-family: "Tahoma Web Safe Font";}
+#text1 {-fx-font-family: "Tahoma Web Safe Font";}
+#text2 {-fx-font-family: "Tahoma Web Safe Font";}
+#text3 {-fx-font-family: "Tahoma Web Safe Font";}
+#text4 {-fx-font-family: "Tahoma Web Safe Font";}
+#text5 {-fx-font-family: "Tahoma Web Safe Font";}
+#text6 {-fx-font-family: "Tahoma Web Safe Font";}
+#text7 {-fx-font-family: "Tahoma Web Safe Font";}
+#text8 {-fx-font-family: "Tahoma Web Safe Font";}
+#text9 {-fx-font-family: "Tahoma Web Safe Font";}
+#text10 {-fx-font-family: "Tahoma Web Safe Font";}
+#text11 {-fx-font-family: "Tahoma Web Safe Font";}
+#text12 {-fx-font-family: "Tahoma Web Safe Font";}
+#text13 {-fx-font-family: "Tahoma Web Safe Font";}
